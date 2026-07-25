@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Heart Disease Prediction Analysis
 An end-to-end data analysis and machine learning project that explores patient health data to identify risk factors for heart disease and build predictive models using Python, pandas, and scikit-learn.
 📌 Project Overview
@@ -68,3 +69,6 @@ Emem Ejikeme
 Data Analyst | Aspiring ML Practitioner
 GitHub Profile
 This project is part of an ongoing portfolio demonstrating skills in data cleaning, exploratory analysis, and predictive modeling using Python.
+=======
+# heart_disease
+>>>>>>> 5e1ed68779b6cbb7bfca2fa037256533314a8348
