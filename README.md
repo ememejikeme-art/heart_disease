@@ -46,8 +46,8 @@ This project explores a heart disease dataset to understand which clinical and l
 **Age Distribution**
 ![Age Distribution](Images/Age%20distribution.png)
 
-**Comparison of Sex to Possibilities of Heart Disease**
-![Comparison of Sex to Heart Disease](Images/comparison%20of%20sex%20to%20possibilities%20of%20heart_disease.png)
+**Comparison of Sex to Possibilities of heart_disease**
+![Comparison of Sex to heart_disease](Images/comparison%20of%20sex%20to%20possibilities%20of%20heart_disease.png)
 
 **Correlation Heatmap**
 ![Correlation Heatmap](Images/Correlation%20heatmaps.png)
