@@ -21,7 +21,7 @@ This project explores a heart disease dataset to understand which clinical and l
 ## 🛠️ Tools & Technologies
 
 - **Language:** Python
-- **Libraries:** pandas, NumPy, matplotlib, seaborn, scikit-learn (KNeighborsClassifier, LogisticRegression, RandomForestClassifier, GridSearchCV, RandomizedSearchCV)
+- **Libraries:** pandas, NumPy, matplotlib, seaborn, scikit-learn
 - **Environment:** Jupyter Notebook (VS Code)
 
 ## 🔍 Project Workflow
@@ -29,45 +29,40 @@ This project explores a heart disease dataset to understand which clinical and l
 1. **Data Cleaning** — Handled missing values, checked data types, removed inconsistencies
 2. **Exploratory Data Analysis (EDA)** — Visualized distributions, correlations, and relationships between features and heart disease outcomes
 3. **Feature Engineering** — Prepared and transformed features for modeling
-4. **Model Building** — Trained and compared three classification models: K-Nearest Neighbors, Logistic Regression, and Random Forest
+4. **Model Building** — Trained and compared classification models: K-Nearest Neighbors, Logistic Regression, and Random Forest
 5. **Hyperparameter Tuning** — Optimized models using RandomizedSearchCV and GridSearchCV
 6. **Model Evaluation** — Assessed performance using accuracy, precision, recall, F1-score, confusion matrix, and ROC curve
-7. **Feature Importance** — Analyzed model coefficients to identify the strongest predictors of heart disease
-8. **Insights & Recommendations** — Summarized key findings and their practical implications
+7. **Insights & Recommendations** — Summarized key findings and their practical implications
 
 ## 📊 Key Findings
 
-- **Logistic Regression was the best-performing model**, achieving ~90% baseline accuracy and 88.5% after hyperparameter tuning (C = 0.191, solver = liblinear) — outperforming Random Forest (88.5% → 86.9% after tuning) and KNN (67.2% → 75.4% after tuning)
+- **Logistic Regression was the best-performing model**, achieving ~90% baseline accuracy and 88.5% after hyperparameter tuning — outperforming Random Forest and KNN
 - The final model achieved **89% precision and 91% recall** for detecting heart disease cases, with an overall accuracy of 89% on the test set
-- **Chest pain type (cp)** and **ST segment slope** were the strongest positive predictors of heart disease presence
-- **Sex, thalassemia (thal), and number of major vessels (ca)** were the strongest negative predictors in this dataset
-- Chest pain type showed the highest correlation (0.43) with heart disease diagnosis among all features
+- **Chest pain type** and **age** showed clear relationships with heart disease presence
+- **Sex** also showed a notable relationship with likelihood of heart disease in this dataset
 
 ## 📈 Visual Highlights
 
-**Age distribution**
-![Age distribution](Images/Age%20distribution.png)
+**Age Distribution**
+![Age Distribution](Images/Age%20distribution.png)
 
-**Comparision of Sex to possibilities of heart_disease.png**
-![Comparision of Sex to heart_disease.png](Images/Comparison%20of%20sex%20to%20possibilities%20of%20heart_disease.png)
-
-**Correlation heatmaps.png**Correlation heatmaps.png
-![Correlation heatmaps.png](Images/correlation%20between%20age%20and%20.png)
+**Comparison of Sex to Possibilities of Heart Disease**
+![Comparison of Sex to Heart Disease](Images/comparison%20of%20sex%20to%20possibilities%20of%20heart_disease.png)
 
 **Correlation Heatmap**
-![Correlation Heatmaps.png](Images/correlation%20heatmap.png)
+![Correlation Heatmap](Images/Correlation%20heatmaps.png)
 
-**Heart Disease in function of age.png**
-![Heart Disease per Chest Pain.png](Images/realtionship%20between%20chest%20pain%20and%20heart_disease.png)
+**Heart Disease in Function of Age**
+![Heart Disease in Function of Age](Images/Heart%20Disease%20in%20function%20of%20age.png)
 
-**Train Test Score.png**
-![Train Test Score](Images/Train_Test_Score.png)
+**Heart Disease per Chest Pain Type**
+![Heart Disease per Chest Pain Type](Images/Heart%20Disease%20per%20Chest%20Pain.png)
 
-**Feature Importance (Logistic Regression Coefficients)**
-![Feature Importance](Images/feature%20importance.png)
+**ROC Curve**
+![ROC Curve](Images/Roc_Curve%20Score.png)
 
-**ROC Curve Score.png**
-![ROC Curve](Images/roc_curve.png)
+**Train vs Test Score**
+![Train Test Score](Images/Train%20Test%20Score.png)
 
 ## 📁 Repository Structure
 
@@ -97,5 +92,5 @@ heart_disease/
 ## 👤 Author
 
 **Emem Ejikeme**
-Data Analyst | Aspiring ML Practitioner
+Data Analyst | ML Practitioner
 [GitHub Profile](https://github.com/ememejikeme-art)
