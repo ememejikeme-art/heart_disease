@@ -45,28 +45,28 @@ This project explores a heart disease dataset to understand which clinical and l
 
 ## 📈 Visual Highlights
 
-**Age Distribution**
-![Age Distribution](Images/Age%20distribution.png)
+**Age distribution**
+![Age distribution](Images/Age%20distribution.png)
 
-**Comparison of Sex to Possibility of Heart Disease**
-![Comparison of Sex to Heart Disease](Images/Comparison%20of%20sex%20to%20possibility%20of%20heart_disease.png)
+**Comparision of Sex to possibilities of heart_disease.png**
+![Comparision of Sex to heart_disease.png](Images/Comparison%20of%20sex%20to%20possibilities%20of%20heart_disease.png)
 
-**Correlation Between Age and Max Heart Rate (thalach)**
-![Correlation Between Age and Thalach](Images/correlation%20between%20age%20and%20thalach.png)
+**Correlation heatmaps.png**Correlation heatmaps.png
+![Correlation heatmaps.png](Images/correlation%20between%20age%20and%20.png)
 
 **Correlation Heatmap**
-![Correlation Heatmap](Images/correlation%20heatmap.png)
+![Correlation Heatmaps.png](Images/correlation%20heatmap.png)
 
-**Relationship Between Chest Pain and Heart Disease**
-![Relationship Between Chest Pain and Heart Disease](Images/realtionship%20between%20chest%20pain%20and%20heart_disease.png)
+**Heart Disease in function of age.png**
+![Heart Disease per Chest Pain.png](Images/realtionship%20between%20chest%20pain%20and%20heart_disease.png)
 
-**KNN Train vs Test Score**
+**Train Test Score.png**
 ![Train Test Score](Images/Train_Test_Score.png)
 
 **Feature Importance (Logistic Regression Coefficients)**
 ![Feature Importance](Images/feature%20importance.png)
 
-**ROC Curve**
+**ROC Curve Score.png**
 ![ROC Curve](Images/roc_curve.png)
 
 ## 📁 Repository Structure
